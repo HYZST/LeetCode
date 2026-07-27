@@ -1,6 +1,6 @@
 package EverydayOne;
 
-public class Twonumber_3536 {
+public class TwoNumber_3536 {
     /*
      * 3536. 两个数字的最大乘积
      * 已解答
