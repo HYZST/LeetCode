@@ -33,9 +33,9 @@ public class TwoNumberSum_1 {
      * 进阶：你可以想出一个时间复杂度小于 O(n2) 的算法吗？
      */
     public static void main(String[] args) {
-        int a1[] = { 2, 7, 11, 15 };
-        int a2[] = { 3, 2, 4 };
-        int a3[] = { 3, 3 };
+        int[] a1 = { 2, 7, 11, 15 };
+        int[] a2 = { 3, 2, 4 };
+        int[] a3 = { 3, 3 };
         getSum(a1, 9);
         getSum(a2, 6);
         getSum(a3, 6);
