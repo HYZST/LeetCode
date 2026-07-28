@@ -71,10 +71,16 @@ n == matrix[0].length
         boolean row0=false,col0=false;
         //分别判断第一行和第一列有无0
         for(int i=0;i<m;i++){//列
-            if(arr[i][0]==0) col0=true;
+            if(arr[i][0]==0){
+                col0=true;
+                break;
+            }
         }
         for(int j=0;j<n;j++){//行
-            if(arr[0][j]==0) row0=true;
+            if(arr[0][j]==0){
+                row0=true;
+                break;
+            }
         }
 
         //遍历除第一行第一列外其他元素
